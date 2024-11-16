@@ -2,7 +2,7 @@ install.packages("ggplot2")
 library(ggplot2)
 library(dplyr)
 
-file_gc <- "C:/Users/Dell/OneDrive/Documents/GitHub/-STAT3013.-P12_Nhom2-/dataset/cleaned_gc=f.csv"
+file_gc <- "C:/Users/Dell/OneDrive/Documents/GitHub/-STAT3013.-P12_Nhom2-/dataset/cleaned_GLD.csv"
 data_gc <- read.csv(file_gc)
 
 head(data_gc)
@@ -57,4 +57,4 @@ analyze_data <- function(data, dataset_name) {
 }
 
 # Run the function and generate the visualizations
-results_gc <- analyze_data(data_gc, "gc=f")
+results_gc <- analyze_data(data_gc, "GLD")
